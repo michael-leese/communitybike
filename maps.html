@@ -55,7 +55,7 @@
 
                 map.layers.add(travelLayer, 'labels');
                 //Load a data set of points, in this case earthquake data from the USGS.
-                travel_datasource.importDataFromUrl("/testData.gesojson");
+                travel_datasource.importDataFromUrl("testData.geojson");
 
                 crash_datasource = new atlas.source.DataSource(null, {
                     //Tell the data source to cluster point data.
@@ -82,7 +82,7 @@
 
                 map.layers.add(crashLayer, 'labels');
                 //Load a data set of points, in this case earthquake data from the USGS.
-                crash_datasource.importDataFromUrl("/testData1.gesojson");
+                crash_datasource.importDataFromUrl("testData1.geojson");
 
                 alert_datasource = new atlas.source.DataSource(null, {
                     //Tell the data source to cluster point data.
