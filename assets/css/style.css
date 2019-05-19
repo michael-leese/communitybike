@@ -26,7 +26,7 @@ body {
 }
 
 .bike_image {
-    background: url("assets/images/bicycleimage.jpg");
+    background: url("/assets/images/bicycleimage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
